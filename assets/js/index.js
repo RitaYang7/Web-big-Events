@@ -6,7 +6,7 @@ function getUserInfo() {
     success: (res) => {
       if (res.status !== 0) return layer.msg(res.message)
       layer.msg(res.message)
-      console.log(res)
+      // console.log(res)
       renderAvatar(res.data)
     },
   })

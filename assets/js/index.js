@@ -39,3 +39,6 @@ const renderAvatar = (user) => {
   })
 }
 getUserInfo()
+function change() {
+  $("#change").addClass("layui-this").next().removeClass("layui-this")
+}
